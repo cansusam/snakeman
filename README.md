@@ -4,5 +4,5 @@ A snake-like game. Instead of a snake, our hero is a humble man who doesn't grow
 
 Be careful! Some of the coins are radioactive. Time travel by walking around those coins until the end of radioactive decay.
 
-[[https://github.com/cansusam/snakeman/blob/master/images/ss.png|alt=whole]]
+![alt text](https://github.com/cansusam/snakeman/blob/master/images/ss.png)
 
