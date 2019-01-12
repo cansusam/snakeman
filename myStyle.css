@@ -5,26 +5,78 @@
   background: #F5F5F5;
 }
 #puanSeviye {
-  width: 200px;
+  min-width: 200px;
   height: 500px;
   position: relative;
   background: #DDEEFF;
+    table-layout: fixed;
   font-family: "Arial Black", Gadget, sans-serif;
   color: darkcyan;
 }
 #puanSeviye2 div{
   margin-left: 15px;
+    padding : 0px 0px 0px 0px;
 }
 #skorlar{
-  width: 250px;
+  min-width: 350px;
   height: 500px;
   position: relative;
   background: #0DA0AF;
+    table-layout: fixed;
   font-family: "Arial Black", Gadget, sans-serif;
   color: azure;
-
 }
 #skorlar2 div{
   margin-left: 15px;
-  padding:0 15px 100px 15px;
+  padding:0px 0px 10px 0px;
+}
+#up {
+     width: 150px;
+    height: 150px;
+    position:absolute;
+    transition: .5s ease;
+    margin-top: 100px;
+    margin-left: 250px;
+    background: #DDEEFF;
+}
+#left {
+    width: 150px;
+    height: 150px;
+    position:absolute;
+    transition: .5s ease;
+    margin-top: 220px;
+    margin-left: 50px;
+    background: #DDEEFF;
+}
+#right {
+     width: 150px;
+    height: 150px;
+    position:absolute;
+    transition: .5s ease;
+    margin-top: 220px;
+    margin-left: 450px;
+    background: #DDEEFF;
+}
+#down {
+     width: 150px;
+    height: 150px;
+    position:absolute;
+    transition: .5s ease;
+    margin-top: 320px;
+    margin-left: 250px;
+    background: #DDEEFF;
+}
+#buton {
+    width: 80px;
+    height: 20px;
+    transition: .5s ease;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+#buton_music {
+    width: 80px;
+    height: 20px;
+    transition: .5s ease;
+    margin-top: 5px;
+    margin-left: 15px;
 }

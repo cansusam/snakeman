@@ -2,13 +2,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <html>
     <title>OYUN</title>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
     <body>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+        <audio id="loopAudio" loop>
+            <source src="audio/Snakeman.mp3" type="audio/mpeg">
+        </audio>
         <audio id="sertAudio" loop>
-            <source src="audio/radyasyon.mp3" type="audio/mpeg">
+            <!--<source src="audio/radyasyon.mp3" type="audio/mpeg">-->
         </audio>
         <audio id="sakinAudio" loop>
-            <source src="audio/sakin.mp3" type="audio/mpeg">
+            <!--<source src="audio/sakin.mp3" type="audio/mpeg">-->
         </audio>
         <table>
             <tr>
@@ -18,10 +22,10 @@
                     </div>
                 </td>
                 <td id="puanSeviye">
-                    <table>
-                        <td id="puanSeviye2">
-                            <div>Puan</div>
-                            <div>Seviye</div>
+                    <table id="puanSeviye2">
+                        <td>
+                            <div>Score</div>
+                            <div>Level</div>
                             <!--<div id="Hiz">Hiz : 0</div>-->
                             <!--<div id="Zehirler"></div>-->
                             <!--<div id="Yemler"></div>-->
@@ -33,27 +37,35 @@
                             <div>:</div>
                             <div>:</div>
                         </td>
-                        <td >
+                        <td>
                             <div id="Puan">0</div>
                             <div id="Seviye">1</div>
                         </td>
                     </table>
-                </td>
-                <td id="skorlar">
-                    <table id="skorlar2">
-                        <td >
-                            <div id="isimSira">#</div>
-                        </td>
-                        <td >
-                            <div id="isim">İsim</div>
-                        </td>
-                        <td>
-                            <div id="isimSkor">Skor</div>
-                        </td>
+                    <table>
+                        
+                            <tr><td>
+                                <button id="buton" type="button">New Game</button>
+                            </td></tr>
+                            <tr><td>
+                                <button id="buton_music" type="button">Music</button>
+                            </td></tr>
+                        
                     </table>
                 </td>
-            </tr>
+                
         </table>
-        <script src="myScript.js"></script>
+        <script type="text/javascript" src="myScript.js"></script>
+        <div>
+            <button id="up" style="display:none">&uarr;</button>
+        </div>
+        <div>
+            <button id="left" style="display:none">&larr;</button>
+            <button id="right" style="display:none">&rarr;</button>
+        </div>
+        <div>
+            <button id="down" style="display:none">&darr;</button>
+        </div>
+            <!--<h3 id="statusdiv">Status</h3>-->
     </body>
 </html>
