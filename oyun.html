@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<html>
+    <title>OYUN</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <body>
+        <audio id="sertAudio" loop>
+            <source src="audio/radyasyon.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="sakinAudio" loop>
+            <source src="audio/sakin.mp3" type="audio/mpeg">
+        </audio>
+        <table>
+            <tr>
+                <td>
+                    <div id ="cerceve">
+                        <canvas id="yem"></canvas>
+                    </div>
+                </td>
+                <td id="puanSeviye">
+                    <table>
+                        <td id="puanSeviye2">
+                            <div>Puan</div>
+                            <div>Seviye</div>
+                            <!--<div id="Hiz">Hiz : 0</div>-->
+                            <!--<div id="Zehirler"></div>-->
+                            <!--<div id="Yemler"></div>-->
+                            <!--<div id="Hareketler">-</div>-->
+                            <!--<div id="PosYem">-</div>-->
+                            <!--<div id="PosYilan">-</div>-->
+                        </td>
+                        <td >
+                            <div>:</div>
+                            <div>:</div>
+                        </td>
+                        <td >
+                            <div id="Puan">0</div>
+                            <div id="Seviye">1</div>
+                        </td>
+                    </table>
+                </td>
+                <td id="skorlar">
+                    <table id="skorlar2">
+                        <td >
+                            <div id="isimSira">#</div>
+                        </td>
+                        <td >
+                            <div id="isim">İsim</div>
+                        </td>
+                        <td>
+                            <div id="isimSkor">Skor</div>
+                        </td>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <script src="myScript.js"></script>
+    </body>
+</html>

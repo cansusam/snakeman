@@ -1,0 +1,30 @@
+#cerceve {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  background: #F5F5F5;
+}
+#puanSeviye {
+  width: 200px;
+  height: 500px;
+  position: relative;
+  background: #DDEEFF;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: darkcyan;
+}
+#puanSeviye2 div{
+  margin-left: 15px;
+}
+#skorlar{
+  width: 250px;
+  height: 500px;
+  position: relative;
+  background: #0DA0AF;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: azure;
+
+}
+#skorlar2 div{
+  margin-left: 15px;
+  padding:0 15px 100px 15px;
+}
